@@ -1,0 +1,54 @@
+.alert{
+    background-color: maroon;
+    font-size: 13px;
+}
+.alert a{
+    color:salmon;
+    font-size: 13px;
+}
+.header-top{
+    background-color: black;
+    color: white;
+}
+.border{
+    border-left: 1px solid white;
+}
+.my-img{
+    background-image: url(./IMG_0377.jpg);
+    background-size: cover;
+    background-position: center;
+    color:white; 
+}
+.my-container{
+    height: 350px;
+    color: white;
+    padding-top: 300px;
+}
+.my-shadow{
+    background-color: black;
+    opacity: 0.4;
+}
+ul{
+    list-style: none;
+}
+.nav-item{
+    font-size: 12px;
+}
+.header-bottom{
+    background-color: black;
+}
+.jumbotron{
+    background-color: white;
+}
+.card{
+    border: none;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    
+}
+.footer-text{
+    padding: 10px;
+    border-bottom: 1px solid white;
