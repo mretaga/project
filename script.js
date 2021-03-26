@@ -17,7 +17,6 @@ $(document).ready(function() {
             park += "<li class='line2'>" + data[i].addresses[0].line2 + "</li>"
             park += "<li class='city'>" + data[i].addresses[0].city + ', ' + data[i].addresses[0].stateCode + ' ' + data[i].addresses[0].postalCode +   "</li>"
             park += "</ul>"
-            park += "</div>"
         }
             $(".contact").append(park)
         }
