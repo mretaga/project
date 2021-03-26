@@ -5,13 +5,13 @@ $(document).ready(function() {
       dataType: 'json',
       success: function(result) {
           var data = result.data
-        console.log(data)
 
         var park = ''
         for(var i = 0; i < data.length; i++) {
             console.log(data[i].addresses[0].line1)
-            park += "<div class='contact'>"
+            
             park += "<ul class=' text-white' style='list-style-type: none;'>"
+            park += "<li>Mailing Address:</li>"
             park += "<li class='name'>" + data[i].fullName + "</li>"
             park += "<li class='line1'>" + data[i].addresses[0].line1 + "</li>"
             park += "<li class='line2'>" + data[i].addresses[0].line2 + "</li>"
